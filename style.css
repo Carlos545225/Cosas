@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+body {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff6f61;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    width: 80%;
+    font-family: "Sevillana", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Sevillana", cursive;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #ff3b30;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.progress {
+    height: 30px;
+    width: 0;
+    background-color: #ff6f61;
+    border-radius: 5px;
+}
+
+#love-percentage {
+    margin-top: 10px;
+    font-size: 18px;
+}

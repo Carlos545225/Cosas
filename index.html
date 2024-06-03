@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de Amor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Medidor de Amor</h1>
+        <input type="text" id="name1" placeholder="Ingresa el primer nombre">
+        <input type="text" id="name2" placeholder="Ingresa el segundo nombre">
+        <button onclick="calculateLove()">Calcular Amor</button>
+        <button onclick="resetForm()">Reset</button>
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+        <p id="love-percentage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
